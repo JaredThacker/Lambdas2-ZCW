@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class SocialMedia implements CheckPerson {
+public class SocialMedia {
     List<Person> members = new ArrayList<>();
 
     public static void printPersons(List<Person> roster, CheckPerson tester) {
@@ -10,10 +10,5 @@ public class SocialMedia implements CheckPerson {
                 p.printPerson();
             }
         }
-    }
-
-    @Override
-    public boolean test(Person p) {
-        return false;
     }
 }
