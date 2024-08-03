@@ -49,6 +49,6 @@ public class Person {
     }
 
     public void printPerson() {
-        new SocialMedia().members.add(this);
+        System.out.printf("Name: %s | Age: %d\n", this.getName(), this.getAge());
     }
 }
